@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <section>
+    <div><p class="heading1">To-Do list <i  id="pen" class='fa-solid fa-pen-to-square green-color'></i></p>
+    </div>  
+   <div> <h3 class="heading2">Click the item to mark it as complete.</h3></div> 
+<!-- <div> <h4 class="heading3">Click the "X" to remove the item from your list.</h4></div>
+ </div> -->
+ <input
+      type="text"
+      
+      class="userInput" 
+           name="to-do"
+           size="30"
+           required
+      placeholder="What is your main focus today?"
+      maxlength="27"
+    />
+   <button class="enter"> <span>ADD  </span></button> </div>
+   <div><ul class="ul"></ul></div>
+</section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
